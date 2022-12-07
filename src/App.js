@@ -1,21 +1,24 @@
-import "./App.css";
+import "./styles/App.css";
+// import "./components/header/header.css";
+
+import Input from "./input";
+import React, { useState } from "react";
+import Header from "./components/header/Header";
 
 function App() {
+  // const [classNames, setClassNames] = useState("name");
+  const [classNames, setClassNames] = useState({
+    name: "name",
+    name2: "name2",
+    black: "black",
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header />
+      {/* className={classNames.black} */}
+      {/* <Input className={classNames.name}></Input>
+      <Input className={classNames.name2}></Input> */}
     </div>
   );
 }

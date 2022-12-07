@@ -1,0 +1,12 @@
+.header {
+  background-color: #ffede9;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span > i {
+  font-size: 25px;
+  color: #8f4e4a;
+}
