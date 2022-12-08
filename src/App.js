@@ -1,9 +1,14 @@
+import "./styles/reset.css";
 import "./styles/App.css";
-// import "./components/header/header.css";
+import "./components/header/header.css";
+import "./components/main/main.css";
 
-import Input from "./input";
+import "./styles/media.css";
+
+// import Input from "./input";
 import React, { useState } from "react";
 import Header from "./components/header/Header";
+import Main from "./components/main/Main";
 
 function App() {
   // const [classNames, setClassNames] = useState("name");
@@ -19,6 +24,7 @@ function App() {
       {/* className={classNames.black} */}
       {/* <Input className={classNames.name}></Input>
       <Input className={classNames.name2}></Input> */}
+      <Main />
     </div>
   );
 }

@@ -1,21 +1,23 @@
-import "./header.css";
+// import "./header.css";
 import React from "react";
-
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "../../img/logo.png";
 
 const Header = (props) => {
   return (
     <header className={props.className + " " + "header"}>
-      <div className="container container__header">
-        <div className="address">
-          <span>
-            <FontAwesomeIcon icon="fa-light fa-location-dot" />
-            <FontAwesomeIcon icon={faHome} />
-            <i class="fa-light fa-location-dot"></i>
-          </span>
-          <p>г. Краснодар,</p>
-          <p>ул. Думенко, 33, оф 5</p>
+      <div className="container">
+        <div className="header__container">
+          <div className="header__address">
+            <p>г. Краснодар,</p>
+            <p>ул. Думенко, 33, оф 5</p>
+          </div>
+          <div className="header__logo">
+            <img src={logo} alt="" className="logo__header logo" />
+          </div>
+          <div className="header__number">
+            <a href="tel:+79183360886">+7 (918) 336-08-86</a>
+            <p>Звонки с 10:00 до 20:00</p>
+          </div>
         </div>
       </div>
     </header>
