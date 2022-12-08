@@ -1,5 +1,18 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(/src/fonts/Montserrat-Medium.woff),
+    url(/src/fonts/Montserrat-SemiBold.woff);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Philosopher";
+  src: url(/src/fonts/Philosopher-Bold.woff);
+  font-style: normal;
+}
+
 body {
   background-color: #fff;
+  height: 2000px;
 }
 
 .wrapper {
@@ -14,7 +27,6 @@ body {
 .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 30px;
-  height: 100px;
+  padding: 0 15px;
   margin: 0 auto;
 }
