@@ -2,6 +2,10 @@ import "./styles/reset.css";
 import "./styles/App.css";
 import "./components/header/header.css";
 import "./components/main/main.css";
+import "./components/main/aboutme.css";
+import "./components/main/appeals.css";
+import "./components/main/directionjob.css";
+import "./components/main/job.css";
 
 import "./styles/media.css";
 

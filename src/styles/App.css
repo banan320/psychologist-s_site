@@ -30,3 +30,24 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.title__h3 {
+  font-family: "Philosopher";
+  font-weight: 700;
+  color: #8f4e4a;
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+.item__ul > li {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+  line-height: 1.1;
+  margin-bottom: 17px;
+}
+.item__ul span {
+  color: #8f4e4a;
+  font-style: italic;
+}
