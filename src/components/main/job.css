@@ -1,0 +1,36 @@
+.job {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding: 10px 0;
+}
+
+.job::after {
+  content: "";
+  background: url("/src/img/branch_job.png") left 0/ 250px 345px no-repeat, #fff;
+  opacity: 0.2;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.job__li img {
+  width: 100%;
+  max-width: 70px;
+  margin: 0 0 10px 0;
+}
+
+.job__li {
+  display: flex;
+  flex-direction: column;
+}
+.job__li li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  flex: 1 1 80px;
+}

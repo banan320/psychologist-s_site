@@ -1,0 +1,39 @@
+.about__main {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding: 100px 0;
+}
+
+.about__main::after {
+  content: "";
+  background: url("/src/img/branch_about.png") right 0/ 250px 345px no-repeat,
+    #fff;
+  opacity: 0.2;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.about__item,
+.appeals__item,
+.direction__item,
+.job__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about__img,
+.direction__img {
+  padding-top: 30px;
+}
+
+.img__about,
+.img__direction {
+  width: 100%;
+  max-width: 335px;
+}
