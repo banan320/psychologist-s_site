@@ -93,7 +93,7 @@ const Sliderfooter = () => {
                 <a
                   href="https://lipsum.app/id/22/1600x1200"
                   data-fancybox="gallery"
-                  data-caption="Сертификат 1"
+                  data-caption="Сертификат 2"
                 >
                   <img src={img1} alt="" />
                 </a>
