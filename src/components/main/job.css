@@ -2,12 +2,13 @@
   width: 100%;
   position: relative;
   display: block;
-  padding: 10px 0;
+  padding: 50px 0;
+  background-color: #ffffff;
 }
 
 .job::after {
   content: "";
-  background: url("/src/img/branch_job.png") left 0/ 250px 345px no-repeat, #fff;
+  background: url("/src/img/branch_job.png") left 0/ 250px 345px no-repeat;
   opacity: 0.2;
   top: 30px;
   left: 0;
@@ -17,20 +18,22 @@
   z-index: -1;
 }
 
-.job__li img {
+.jobs__items img {
   width: 100%;
   max-width: 70px;
   margin: 0 0 10px 0;
 }
 
-.job__li {
+.jobs__items {
   display: flex;
-  flex-direction: column;
-}
-.job__li li {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   margin-bottom: 25px;
-  flex: 1 1 80px;
+}
+.job__img {
+  flex: 0 1 80px;
+}
+
+.job__text {
+  flex: 1 1 260px;
 }

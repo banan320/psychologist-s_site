@@ -4,6 +4,7 @@ import Aboutme from "./Aboutme";
 import Appeals from "./Appeals";
 import Directionjob from "./Directionjob";
 import Job from "./Job";
+import Sliderfooter from "./Sliderfooter";
 
 const Main = () => {
   return (
@@ -22,12 +23,18 @@ const Main = () => {
                 <p>Многопрофильная квалифицированная психологическая помощь</p>
               </div>
 
-              <div className="main__btn">
-                <button className="btn btn__main">Написать в WhatsApp</button>
+              <div className="main__img">
+                <img src={imgMe} alt="" className="img__main" />
               </div>
             </div>
-            <div className="main__img">
-              <img src={imgMe} alt="" className="img__main" />
+
+            <div className="main__btn">
+              <a
+                className="btn btn__main"
+                href="https://wa.me/79183360886?text=Добрый%20день,%20Елена!%20Я%20хотел%20бы%20получить%20психологическую%20помощь."
+              >
+                Написать в WhatsApp
+              </a>
             </div>
           </div>
         </div>
@@ -36,6 +43,7 @@ const Main = () => {
       <Appeals />
       <Directionjob />
       <Job />
+      <Sliderfooter />
     </main>
   );
 };

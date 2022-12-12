@@ -2,13 +2,13 @@
   width: 100%;
   position: relative;
   display: block;
-  padding: 100px 0;
+  padding: 90px 0;
+  background-color: #ffffff;
 }
 
 .about__main::after {
   content: "";
-  background: url("/src/img/branch_about.png") right 0/ 250px 345px no-repeat,
-    #fff;
+  background: url("/src/img/branch_about.png") right 0/ 250px 345px no-repeat;
   opacity: 0.2;
   top: 30px;
   left: 0;
@@ -21,7 +21,8 @@
 .about__item,
 .appeals__item,
 .direction__item,
-.job__item {
+.job__item,
+.slider__item {
   display: flex;
   align-items: center;
   flex-direction: column;

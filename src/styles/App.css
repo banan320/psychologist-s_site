@@ -12,7 +12,7 @@
 
 body {
   background-color: #fff;
-  height: 2000px;
+  font-family: "Montserrat";
 }
 
 .wrapper {
@@ -39,7 +39,8 @@ body {
   margin-bottom: 30px;
 }
 
-.item__ul > li {
+.item__ul > li,
+.job__text {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 16px;

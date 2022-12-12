@@ -5,8 +5,8 @@ main {
   width: 100%;
   background: url("/src/img/line_header.png") 0 50px no-repeat,
     linear-gradient(
-      176.51deg,
-      rgb(255, 237, 233) 52.33%,
+      180deg,
+      rgb(255, 237, 233) 43.33%,
       rgba(255, 243, 240, 0) 99.73%
     );
   padding-top: 40px;
@@ -50,20 +50,20 @@ main {
 }
 .main__img {
   display: flex;
-  order: 3;
-}
-
-.main__img img {
-  max-width: 350px;
-  width: 100%;
-  padding-top: 120px;
-}
-
-.main__btn {
   order: 2;
 }
 
-.btn {
+.main__img img {
+  max-width: 340px;
+  width: 100%;
+}
+
+.main__btn {
+  display: flex;
+  order: 3;
+}
+
+.btn__main {
   background-color: #7aaca7;
   color: #ffffff;
   font-family: "Montserrat";
