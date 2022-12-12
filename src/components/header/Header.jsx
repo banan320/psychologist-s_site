@@ -2,9 +2,9 @@
 import React from "react";
 import logo from "../../img/logo.png";
 
-const Header = (props) => {
+const Header = () => {
   return (
-    <header className={props.className + " " + "header"}>
+    <header className="header">
       <div className="container">
         <div className="header__container">
           <div className="header__address">
