@@ -2,11 +2,12 @@ import React from "react";
 
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import img1 from "./../../img/rectangle85.png";
-
 import "swiper/css";
 import "swiper/css/navigation";
+import img1 from "./../../img/rectangle85.png";
+
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox.css";
 
 const Sliderfooter = () => {
   return (
@@ -44,22 +45,58 @@ const Sliderfooter = () => {
               }}
             >
               <SwiperSlide>
-                <img src={img1} alt="" />
+                <a
+                  href="https://lipsum.app/id/22/1600x1200"
+                  data-fancybox="gallery"
+                  data-caption="Сертификат 1"
+                >
+                  <img src={img1} alt="" />
+                </a>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={img1} alt="" />
+                <a
+                  href="https://lipsum.app/id/22/1600x1200"
+                  data-fancybox="gallery"
+                  data-caption="Сертификат 1"
+                >
+                  <img src={img1} alt="" />
+                </a>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={img1} alt="" />
+                <a
+                  href="https://lipsum.app/id/22/1600x1200"
+                  data-fancybox="gallery"
+                  data-caption="Сертификат 1"
+                >
+                  <img src={img1} alt="" />
+                </a>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={img1} alt="" />
+                <a
+                  href="https://lipsum.app/id/22/1600x1200"
+                  data-fancybox="gallery"
+                  data-caption="Сертификат 1"
+                >
+                  <img src={img1} alt="" />
+                </a>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={img1} alt="" />
+                <a
+                  href="https://lipsum.app/id/22/1600x1200"
+                  data-fancybox="gallery"
+                  data-caption="Сертификат 1"
+                >
+                  <img src={img1} alt="" />
+                </a>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={img1} alt="" />
+                <a
+                  href="https://lipsum.app/id/22/1600x1200"
+                  data-fancybox="gallery"
+                  data-caption="Сертификат 2"
+                >
+                  <img src={img1} alt="" />
+                </a>
               </SwiperSlide>
             </Swiper>
           </div>
