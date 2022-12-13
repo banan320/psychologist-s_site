@@ -18,6 +18,11 @@
   justify-content: center;
 }
 
+.swiper-slide img {
+  max-width: 100%;
+  width: 300px !important;
+}
+
 .swiper .swiper-wrapper {
   display: flex;
   align-items: center;

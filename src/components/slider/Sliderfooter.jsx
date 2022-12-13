@@ -5,7 +5,12 @@ import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import img1 from "./../../img/rectangle85.png";
+
+import img1 from "./../../img/сertificate/01.jpg";
+import img2 from "./../../img/сertificate/02.jpg";
+import img3 from "./../../img/сertificate/03.jpg";
+import img4 from "./../../img/сertificate/04.jpg";
+import img5 from "./../../img/сertificate/05.jpg";
 
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
@@ -21,7 +26,7 @@ const Sliderfooter = () => {
           <div className="slider__swiper">
             <Swiper
               modules={[Navigation]}
-              spaceBetween={0}
+              spaceBetween={30}
               slidesPerView={3}
               simulateTouch={true}
               navigation={{
@@ -32,7 +37,7 @@ const Sliderfooter = () => {
                 delay: 4000,
               }}
               breakpoints={{
-                320: {
+                290: {
                   slidesPerView: 1,
                 },
                 768: {
@@ -47,56 +52,47 @@ const Sliderfooter = () => {
             >
               <SwiperSlide>
                 <a
-                  href="https://lipsum.app/id/22/1600x1200"
+                  href={img1}
                   data-fancybox="gallery"
-                  data-caption="Сертификат 1"
+                  data-caption="Диплом КубГу"
                 >
                   <img src={img1} alt="" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="https://lipsum.app/id/22/1600x1200"
+                  href={img2}
                   data-fancybox="gallery"
-                  data-caption="Сертификат 1"
+                  data-caption="Удостоверение семейной психотерапии"
                 >
-                  <img src={img1} alt="" />
+                  <img src={img2} alt="" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="https://lipsum.app/id/22/1600x1200"
+                  href={img3}
                   data-fancybox="gallery"
-                  data-caption="Сертификат 1"
+                  data-caption="Удостоверение судебной и внесудебной экспертизы"
                 >
-                  <img src={img1} alt="" />
+                  <img src={img3} alt="" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="https://lipsum.app/id/22/1600x1200"
+                  href={img4}
                   data-fancybox="gallery"
-                  data-caption="Сертификат 1"
+                  data-caption="Диплом кандидата"
                 >
-                  <img src={img1} alt="" />
+                  <img src={img4} alt="" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="https://lipsum.app/id/22/1600x1200"
+                  href={img5}
                   data-fancybox="gallery"
-                  data-caption="Сертификат 1"
+                  data-caption="Сертификат Сказкотерапия"
                 >
-                  <img src={img1} alt="" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="https://lipsum.app/id/22/1600x1200"
-                  data-fancybox="gallery"
-                  data-caption="Сертификат 2"
-                >
-                  <img src={img1} alt="" />
+                  <img src={img5} alt="" />
                 </a>
               </SwiperSlide>
             </Swiper>
