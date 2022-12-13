@@ -1,4 +1,5 @@
 import React from "react";
+import "./appeals.css";
 
 const Appeals = () => {
   return (

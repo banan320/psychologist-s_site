@@ -32,6 +32,7 @@ body {
 }
 
 .title__h3 {
+  text-align: center;
   font-family: "Philosopher";
   font-weight: 700;
   color: #8f4e4a;
@@ -51,4 +52,14 @@ body {
 .item__ul span {
   color: #8f4e4a;
   font-style: italic;
+}
+
+.about__item,
+.appeals__item,
+.direction__item,
+.job__item,
+.slider__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

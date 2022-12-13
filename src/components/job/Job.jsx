@@ -1,4 +1,6 @@
 import React from "react";
+import "./job.css";
+
 import job01 from "../../img/01_job.png";
 import job02 from "../../img/02_job.png";
 import job03 from "../../img/03_job.png";

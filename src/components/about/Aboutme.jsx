@@ -1,4 +1,5 @@
 import React from "react";
+import "./aboutme.css";
 import imgAbout from "../../img/aboutMe_img.png";
 
 const Aboutme = () => {

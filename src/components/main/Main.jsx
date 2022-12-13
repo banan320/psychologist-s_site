@@ -1,10 +1,12 @@
 import React from "react";
+import "./main.css";
+
 import imgMe from "../../img/header_img.png";
-import Aboutme from "./Aboutme";
-import Appeals from "./Appeals";
-import Directionjob from "./Directionjob";
-import Job from "./Job";
-import Sliderfooter from "./Sliderfooter";
+import Aboutme from "../about/Aboutme";
+import Appeals from "../appeals/Appeals";
+import Directionjob from "../direction/Directionjob";
+import Job from "../job/Job";
+import Sliderfooter from "../slider/Sliderfooter";
 
 const Main = () => {
   return (
