@@ -1,5 +1,6 @@
 import React from "react";
 import imgCards from "../../img/cards.png";
+import "./directionjob.css";
 
 const Directionjob = () => {
   return (
