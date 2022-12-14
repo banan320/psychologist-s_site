@@ -8,10 +8,10 @@ const Aboutme = () => {
       <div className="container">
         <div className="about__container">
           <div className="about__item">
-            <div>
-              <h3 className="title__h3">Обо мне</h3>
-            </div>
             <div className="about__text">
+              <div className="about__title">
+                <h3 className="title__h3">Обо мне</h3>
+              </div>
               <div>
                 <ul className="item__ul">
                   <li>

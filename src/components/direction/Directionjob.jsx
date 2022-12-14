@@ -8,10 +8,10 @@ const Directionjob = () => {
       <div className="container">
         <div className="direction__container">
           <div className="direction__item">
-            <div>
-              <h3 className="title__h3">Направления работы</h3>
-            </div>
             <div className="direction__text">
+              <div className="direction__title">
+                <h3 className="title__h3">Направления работы</h3>
+              </div>
               <div>
                 <ul className="item__ul">
                   <li>Снятие тревожности</li>

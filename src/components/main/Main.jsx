@@ -14,29 +14,40 @@ const Main = () => {
       <section className="main">
         <div className="container">
           <div className="main__container">
-            <div className="main__title">
-              <div>
-                <h1>Психолог</h1>
-              </div>
-              <div>
-                <h2>Елена Медведева</h2>
-              </div>
-              <div>
-                <p>Многопрофильная квалифицированная психологическая помощь</p>
-              </div>
+            <div className="main__item ">
+              <div className="main__text-item">
+                <div className="main__title">
+                  <h1>Психолог</h1>
+                </div>
+                <div className="main__subtitle">
+                  <h2>Елена Медведева</h2>
+                </div>
+                <div className="main__text">
+                  <p>
+                    Многопрофильная квалифицированная психологическая помощь
+                  </p>
+                </div>
 
+                <div className="main__btn-full">
+                  <a
+                    className="btn btn__main"
+                    href="https://wa.me/79183360886?text=Добрый%20день,%20Елена!%20Я%20хотел%20бы%20получить%20психологическую%20помощь."
+                  >
+                    Написать в WhatsApp
+                  </a>
+                </div>
+              </div>
               <div className="main__img">
                 <img src={imgMe} alt="" className="img__main" />
               </div>
-            </div>
-
-            <div className="main__btn">
-              <a
-                className="btn btn__main"
-                href="https://wa.me/79183360886?text=Добрый%20день,%20Елена!%20Я%20хотел%20бы%20получить%20психологическую%20помощь."
-              >
-                Написать в WhatsApp
-              </a>
+              <div className="main__btn">
+                <a
+                  className="btn btn__main"
+                  href="https://wa.me/79183360886?text=Добрый%20день,%20Елена!%20Я%20хотел%20бы%20получить%20психологическую%20помощь."
+                >
+                  Написать в WhatsApp
+                </a>
+              </div>
             </div>
           </div>
         </div>
