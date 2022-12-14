@@ -1,5 +1,53 @@
 .direction {
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
   width: 100%;
   background: url("/src/img/line_main.png") center center no-repeat, #fff;
+}
+
+.img__direction {
+  width: 100%;
+  max-width: 335px;
+}
+
+.direction__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.direction__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  order: 1;
+}
+
+.direction__img {
+  padding-top: 30px;
+  order: 2;
+}
+
+@media (min-width: 960px) {
+  .direction__item {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .direction__text {
+    align-items: flex-start;
+  }
+
+  .direction__img {
+    padding-top: 0;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .direction {
+    padding-top: 100px;
+  }
+  .img__direction {
+    max-width: 440px;
+  }
 }

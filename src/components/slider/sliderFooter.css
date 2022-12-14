@@ -13,6 +13,12 @@
   width: 100%;
 }
 
+.slider__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .swiper-slide {
   display: flex;
   justify-content: center;
@@ -41,4 +47,10 @@
   color: #8f4e4a;
   font-size: 30px !important;
   font-weight: 700;
+}
+
+@media (min-width: 960px) {
+  .slider__item {
+    align-items: flex-start;
+  }
 }

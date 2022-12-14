@@ -1,6 +1,5 @@
 import "./styles/reset.css";
 import "./styles/App.css";
-import "./styles/media.css";
 
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";

@@ -3,12 +3,11 @@
   position: relative;
   display: block;
   padding: 90px 0;
-  background-color: #ffffff;
 }
 
 .about__main::after {
   content: "";
-  background: url("/src/img/branch_about.png") right 0/ 250px 345px no-repeat;
+  background: url("/src/img/branch_about.png") right 0/ 250px 345px no-repeat #ffffff;
   opacity: 0.2;
   top: 30px;
   left: 0;
@@ -18,13 +17,60 @@
   z-index: -1;
 }
 
-.about__img,
-.direction__img {
-  padding-top: 30px;
+.about__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.img__about,
-.img__direction {
+.about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+.about__img {
+  padding-top: 30px;
+  order: 2;
+}
+
+.img__about {
   width: 100%;
   max-width: 335px;
+}
+
+@media (min-width: 960px) {
+  .about__item {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about__text {
+    align-items: flex-start;
+    order: 2;
+  }
+
+  .about__img {
+    padding-top: 0;
+    order: 1;
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .img__about {
+    max-width: 440px;
+  }
+
+  .about__main::after {
+    background: url("/src/img/branch_about.png") right 0/ 420px 500px no-repeat;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about__main::after {
+    background: url("/src/img/branch_about.png") right 0/ 420px 500px no-repeat;
+    opacity: 1;
+  }
 }
