@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header__container">
           <div className="header__address">
             <p>г. Краснодар,</p>
-            <p>ул. Думенко, 33, оф 5</p>
+            <p>ул. Думенко, 33, оф. 5</p>
           </div>
           <div className="header__logo">
             <img src={logo} alt="" className="logo__header logo" />
