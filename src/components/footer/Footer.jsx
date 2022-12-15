@@ -21,16 +21,22 @@ const Footer = () => {
             </div>
 
             <div className="footer__number">
-              <a className="num__footer" href="tel:+79183360886">
-                +7 (918) 336-08-86
-              </a>
-              <p>Звонки с 10:00 до 20:00</p>
-              <a
-                className="btn__footer"
-                href="https://wa.me/79183360886?text=Добрый%20день,%20Елена!%20Я%20хотел%20бы%20получить%20психологическую%20помощь."
-              >
-                Написать в WhatsApp
-              </a>
+              <div>
+                <a className="num__footer" href="tel:+79183360886">
+                  +7 (918) 336-08-86
+                </a>
+              </div>
+              <div>
+                <p>Звонки с 10:00 до 20:00</p>
+              </div>
+              <div>
+                <a
+                  className="btn__footer"
+                  href="https://wa.me/79183360886?text=Добрый%20день,%20Елена!%20Я%20хотел%20бы%20получить%20психологическую%20помощь."
+                >
+                  Написать в WhatsApp
+                </a>
+              </div>
             </div>
 
             <div className="footer__address">
