@@ -56,7 +56,6 @@
   }
 
   .appeals__ul li {
-    align-items: flex-start;
     margin-right: 30px;
   }
   .appeals__ul li:last-child {
@@ -75,5 +74,11 @@
   }
   .appeals__ul span {
     font-size: 19px;
+  }
+  .appeals__ul {
+    text-align: start;
+  }
+  .appeals__ul > li {
+    align-items: flex-start;
   }
 }
