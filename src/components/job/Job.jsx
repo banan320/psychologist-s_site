@@ -39,15 +39,15 @@ const Job = () => {
             </div>
 
             <div className="job__block">
-              <div className="item__ul jobs__items">
+              <div className="jobs__items">
                 <div className="job__img">
                   <img src={job03} alt="" />
                 </div>
                 <div className="job__text">
                   <p>
-                    Проработка проблемных вопросов <br />
+                    Проработка проблемных вопросов
                     <span>
-                      (коррекция подхода при <br /> необходимости)
+                      (коррекция <br /> подхода при необходимости)
                     </span>
                   </p>
                 </div>
@@ -59,8 +59,8 @@ const Job = () => {
                 </div>
                 <div className="job__text">
                   <p>
-                    Сопровождение клиентов после
-                    <br /> прохождения терапии
+                    Сопровождение клиентов после прохождения
+                    <br /> терапии
                   </p>
                 </div>
               </div>

@@ -10,7 +10,7 @@ const Appeals = () => {
             <div className="appeals__title">
               <h3 className="title__h3">Почему ко мне обращаются:</h3>
             </div>
-            <ul className="item__ul appeals__li">
+            <ul className="appeals__ul">
               <li>
                 <span className="item__num num01">01</span>
                 Анонимность
