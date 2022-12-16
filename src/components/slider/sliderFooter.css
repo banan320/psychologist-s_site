@@ -5,7 +5,7 @@
 }
 
 .slider__title {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .slider__swiper {
@@ -49,8 +49,8 @@
   font-weight: 700;
 }
 
-@media (min-width: 960px) {
-  .slider__item {
-    align-items: flex-start;
+@media (min-width: 1320px) {
+  .slider__title h3 {
+    text-align: start;
   }
 }

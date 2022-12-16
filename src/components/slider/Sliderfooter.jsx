@@ -19,10 +19,10 @@ const Sliderfooter = () => {
   return (
     <section className="slider">
       <div className="container">
+        <div className="slider__title">
+          <h3 className="title__h3">Сертификаты</h3>
+        </div>
         <div className="slider__item">
-          <div className="slider__title">
-            <h3 className="title__h3">Сертификаты</h3>
-          </div>
           <div className="slider__swiper">
             <Swiper
               modules={[Navigation]}

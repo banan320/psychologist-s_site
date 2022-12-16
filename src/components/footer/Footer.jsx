@@ -50,9 +50,6 @@ const Footer = () => {
                   Посмотреть на карте
                 </a>
               </div>
-              <div className="policy">
-                <a href="#">Политика конфиденциальности</a>
-              </div>
             </div>
           </div>
         </div>

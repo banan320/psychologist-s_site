@@ -10,26 +10,38 @@
   flex-direction: column;
 }
 
-.appeals__li {
+.appeals__ul {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
-.appeals__li li {
+
+.appeals__ul > li {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 1.2;
   margin-bottom: 0;
 }
+.appeals__ul span {
+  color: #8f4e4a;
+  font-style: italic;
+  font-size: 14px;
+}
 
-.item__ul .item__num {
+.appeals__ul .item__num {
   font-family: "Philosopher";
   font-weight: 700;
   color: #7aaca7;
   font-size: 100px;
   font-style: normal;
 }
-.item__ul .num01 {
+.appeals__ul .num01 {
   letter-spacing: 10px;
 }
 
@@ -37,28 +49,31 @@
   .appeals__item {
     display: block;
   }
-  .appeals__li {
+  .appeals__ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .appeals__li li {
+  .appeals__ul li {
     align-items: flex-start;
     margin-right: 30px;
   }
-  .appeals__li li:last-child {
+  .appeals__ul li:last-child {
     margin-right: 0;
   }
 }
 @media (min-width: 720px) {
-  .appeals__li li {
+  .appeals__ul li {
     margin-right: 0;
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1320px) {
   .title__h3 {
     text-align: start;
+  }
+  .appeals__ul span {
+    font-size: 19px;
   }
 }

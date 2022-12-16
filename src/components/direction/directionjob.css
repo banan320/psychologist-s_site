@@ -14,6 +14,24 @@
   align-items: center;
   flex-direction: column;
 }
+.direction__ul > li {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+  line-height: 1.1;
+  margin-bottom: 17px;
+}
+.direction__ul span {
+  color: #8f4e4a;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.direction__ul {
+  width: 100%;
+  max-width: 305px;
+}
 
 .direction__text {
   display: flex;
@@ -49,5 +67,16 @@
   }
   .img__direction {
     max-width: 440px;
+  }
+
+  .direction__ul span {
+    font-size: 19px;
+  }
+  .direction__ul {
+    max-width: 445px;
+  }
+
+  .direction__ul > li {
+    font-size: 20px;
   }
 }
