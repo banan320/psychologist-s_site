@@ -75,10 +75,4 @@
   .appeals__ul span {
     font-size: 19px;
   }
-  .appeals__ul {
-    text-align: start;
-  }
-  .appeals__ul > li {
-    align-items: flex-start;
-  }
 }
