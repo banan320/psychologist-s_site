@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutme.css";
-import imgAbout from "../../img/aboutMe_img.png";
+import imgAbout from "../../img/aboutMe_img.webp";
 
 const Aboutme = () => {
   return (
@@ -30,7 +30,7 @@ const Aboutme = () => {
               </div>
             </div>
             <div className="about__img">
-              <img src={imgAbout} alt="" className="img__about" />
+              <img src={imgAbout} alt="" className="img__about" width="335px" />
             </div>
           </div>
         </div>

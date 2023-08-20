@@ -6,11 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import img1 from "./../../img/сertificate/01.jpg";
-import img2 from "./../../img/сertificate/02.jpg";
-import img3 from "./../../img/сertificate/03.jpg";
-import img4 from "./../../img/сertificate/04.jpg";
-import img5 from "./../../img/сertificate/05.jpg";
+import img1 from "./../../img/сertificate/01.webp";
+import img2 from "./../../img/сertificate/02.webp";
+import img3 from "./../../img/сertificate/03.webp";
+import img4 from "./../../img/сertificate/04.webp";
+import img5 from "./../../img/сertificate/05.webp";
 
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
