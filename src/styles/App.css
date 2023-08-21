@@ -3,11 +3,13 @@
   src: url(/src/fonts/Montserrat-Medium.woff),
     url(/src/fonts/Montserrat-SemiBold.woff);
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Philosopher";
   src: url(/src/fonts/Philosopher-Bold.woff);
   font-style: normal;
+  font-display: swap;
 }
 
 body {

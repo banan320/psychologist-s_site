@@ -52,11 +52,11 @@
 .about__img {
   padding-top: 30px;
   order: 2;
+  max-width: 335px;
 }
 
 .img__about {
   width: 100%;
-  max-width: 335px;
 }
 
 @media (min-width: 960px) {
@@ -78,7 +78,7 @@
 }
 
 @media (min-width: 1320px) {
-  .img__about {
+  .about__img {
     max-width: 440px;
   }
 
