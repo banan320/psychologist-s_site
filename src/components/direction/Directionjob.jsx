@@ -1,5 +1,5 @@
 import React from "react";
-import imgCards from "../../img/cards.png";
+import imgCards from "../../img/cards.webp";
 import "./directionjob.css";
 
 const Directionjob = () => {
@@ -35,7 +35,12 @@ const Directionjob = () => {
               </div>
             </div>
             <div className="direction__img">
-              <img src={imgCards} alt="" className="img__direction" />
+              <img
+                src={imgCards}
+                alt=""
+                className="img__direction"
+                width="335px"
+              />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./main.css";
 
-import imgMe from "../../img/header_img.png";
+import imgMe from "../../img/header_img.webp";
 import Aboutme from "../about/Aboutme";
 import Appeals from "../appeals/Appeals";
 import Directionjob from "../direction/Directionjob";
@@ -38,7 +38,7 @@ const Main = () => {
                 </div>
               </div>
               <div className="main__img">
-                <img src={imgMe} alt="" className="img__main" />
+                <img src={imgMe} alt="" className="img__main" width="450px" />
               </div>
               <div className="main__btn">
                 <a
