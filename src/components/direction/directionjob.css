@@ -4,11 +4,6 @@
   background: url("/src/img/line_main.png") center center no-repeat, #fff;
 }
 
-.img__direction {
-  width: 100%;
-  max-width: 335px;
-}
-
 .direction__item {
   display: flex;
   align-items: center;
@@ -43,6 +38,11 @@
 .direction__img {
   padding-top: 30px;
   order: 2;
+  max-width: 335px;
+}
+
+.img__direction {
+  width: 100%;
 }
 
 @media (min-width: 960px) {
@@ -65,7 +65,7 @@
   .direction {
     padding-top: 100px;
   }
-  .img__direction {
+  .direction__img {
     max-width: 440px;
   }
 
